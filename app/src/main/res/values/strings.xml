@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">1July_KakshaApp</string>
+    <string name="createacc">Create account</string>
+    <string name="emailsample">alma.lawson@example.com</string>
+    <string name="name">Jane Cooper</string>
+    <string name="pass">Password</string>
+    <string name="usephone">Use Phone Number</string>
+    <string name="signiup">Sign Up</string>
+    <string name="continuefb"> CONTINUE WITH FACEBOOK </string>
+    <string name="continuegugl"> CONTINUE WITH GOOGLE </string>
+
+</resources>

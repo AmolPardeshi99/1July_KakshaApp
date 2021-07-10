@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightblue"
+        android:padding="@dimen/sp_20">
+
+        <TextView
+            style="@style/customTextview"
+            android:drawableLeft="@drawable/arrowback"
+            android:drawablePadding="@dimen/sp_30"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/createacc"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_25" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/sp_20"
+        android:orientation="vertical"
+        android:padding="@dimen/sp_25">
+
+        <EditText
+            style="@style/customEditText"
+            android:text="@string/emailsample" />
+
+        <EditText
+            style="@style/customEditText"
+            android:text="@string/name" />
+
+        <EditText
+            style="@style/customEditText"
+            android:text="@string/pass" />
+
+        <TextView
+            style="@style/customTextview"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/sp_15"
+            android:text="@string/usephone"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/lightblue" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/sp_35"
+            android:layout_marginTop="@dimen/sp_40"
+            android:background="@drawable/rectangle"
+            android:padding="@dimen/sp_10"
+            android:text="@string/signiup"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_17" />
+
+        <TextView
+            style="@style/customTextview"
+            android:text="or"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/sp_25"
+            android:textSize="@dimen/sp_20"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/sp_35"
+            android:layout_marginTop="@dimen/sp_35"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="@color/darkblue"
+            android:padding="@dimen/sp_10"
+            android:text="@string/continuefb"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_17" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/sp_35"
+            android:layout_marginTop="@dimen/sp_20"
+            android:background="@drawable/rectangle"
+            android:backgroundTint="@color/white"
+            android:padding="@dimen/sp_10"
+            android:text="@string/continuegugl"
+            android:drawableLeft="@drawable/ic_google"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_17" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

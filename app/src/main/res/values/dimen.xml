@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sp_1">1sp</dimen>
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_17">17sp</dimen>
+    <dimen name="sp_25">25sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
+    <dimen name="sp_35">35sp</dimen>
+    <dimen name="sp_40">40sp</dimen>
+    <dimen name="sp_45">45sp</dimen>
+    <dimen name="sp_50">50sp</dimen>
+    <dimen name="sp_60">60sp</dimen>
+    <dimen name="sp_90">90sp</dimen>
+    <dimen name="sp_110">110sp</dimen>
+    <dimen name="sp_339">339sp</dimen>
+
+
+</resources>
